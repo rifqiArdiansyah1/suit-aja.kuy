@@ -1,0 +1,61 @@
+*,
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: none;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.navbar {
+    background-color: #FF8647;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.playerName {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: x-large;
+    margin: 70px;
+}
+
+.buttonInput {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.inputPlayer1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.inputPlayer2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.finishing {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 150px;
+}
