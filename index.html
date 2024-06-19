@@ -21,9 +21,9 @@
 
     <div class="buttonInput">
         <div class="inputPlayer1">
-            <button>batu</button>
-            <button>gunting</button>
-            <button>kertas</button>
+            <button id="batu" onclick="setPlayerChoice1('batu')">batu</button>
+            <button id="gunting" onclick="setPlayerChoice1('gunting')">gunting</button>
+            <button id="kertas" onclick="setPlayerChoice1('kertas')">kertas</button>
         </div>
         <div class="inputPlayer2">
             <button>batu</button>
@@ -34,7 +34,7 @@
 
     <div class="finishing">
         <button onclick="start()">Start!</button>
-        <div id="result">result</div>
+        <div id="result"></div>
     </div>
     <script src="main.js"></script>
 </body>
