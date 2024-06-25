@@ -9,6 +9,15 @@ body {
     font-style: normal;
 }
 
+.background {
+    background: url(/pexels-pixabay-235985.jpg) no-repeat center;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
 .center {
     display: flex;
     align-items: center;
@@ -17,7 +26,6 @@ body {
 }
 
 .navbar {
-    background-color: #FF8647;
     display: flex;
     align-items: center;
     justify-content: center;

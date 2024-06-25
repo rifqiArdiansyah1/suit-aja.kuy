@@ -39,8 +39,8 @@ function start() {
     }
     computerSelection = getComputerChoice();
     result = rules(playerSelection, computerSelection)
-    console.log(`pilihan computer: ${computerSelection}`)
-    console.log(`pilihan computer: ${playerSelection}`)
+    console.log(`pilihan Computer: ${computerSelection}`)
+    console.log(`pilihan Player: ${playerSelection}`)
     displayResult();
     resetGame();
 }

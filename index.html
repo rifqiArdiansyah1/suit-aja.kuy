@@ -10,33 +10,36 @@
 </head>
 
 <body>
-    <div class="navbar">
-        <h1>Suit Aja</h1>
-    </div>
+    <div class="background">
 
-    <div class="playerName">
-        <p>Player 1</p>
-        <p>Player 2</p>
-    </div>
-
-    <div class="buttonInput">
-        <div class="inputPlayer1">
-            <button id="batu" onclick="setPlayerChoice1('batu')">batu</button>
-            <button id="gunting" onclick="setPlayerChoice1('gunting')">gunting</button>
-            <button id="kertas" onclick="setPlayerChoice1('kertas')">kertas</button>
+        <div class="navbar">
+            <h1>Suit Aja</h1>
         </div>
-        <div class="inputPlayer2">
-            <button>batu</button>
-            <button>gunting</button>
-            <button>kertas</button>
-        </div>
-    </div>
 
-    <div class="finishing">
-        <button onclick="start()">Start!</button>
-        <div id="result"></div>
+        <div class="playerName">
+            <p>Player 1</p>
+            <p>Computer</p>
+        </div>
+
+        <div class="buttonInput">
+            <div class="inputPlayer1">
+                <button id="batu" onclick="setPlayerChoice1('batu')">batu</button>
+                <button id="gunting" onclick="setPlayerChoice1('gunting')">gunting</button>
+                <button id="kertas" onclick="setPlayerChoice1('kertas')">kertas</button>
+            </div>
+            <div class="inputPlayer2">
+                <button>batu</button>
+                <button>gunting</button>
+                <button>kertas</button>
+            </div>
+        </div>
+
+        <div class="finishing">
+            <button onclick="start()">Start!</button>
+            <div id="result"></div>
+        </div>
+        <script src="main.js"></script>
     </div>
-    <script src="main.js"></script>
 </body>
 
 </html>
